@@ -1,0 +1,128 @@
+<section id="products" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 py-10">
+  <!-- T-Shirt Block Start -->
+  <!-- Repeat this block with new image, title, price -->
+
+  <!-- 1 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt1.jpg" alt="T-shirt 1" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Peach Basic Tee</h3>
+    <p class="text-gray-600">₹599</p>
+    <label class="block mt-2">Size:
+      <select class="w-full mt-1 p-1 border rounded">
+        <option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option>
+      </select>
+    </label>
+    <label class="block mt-2">Color:
+      <div class="flex gap-2 mt-1">
+        <span class="w-5 h-5 rounded-full bg-red-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-blue-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-yellow-400 border"></span>
+        <span class="w-5 h-5 rounded-full bg-green-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-black border"></span>
+      </div>
+    </label>
+    <button class="mt-4 w-full bg-black text-white py-2 rounded">Add to Cart</button>
+  </div>
+
+  <!-- 2 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt2.jpg" alt="T-shirt 2" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">White Athletic Tee</h3>
+    <p class="text-gray-600">₹649</p>
+    <label class="block mt-2">Size:
+      <select class="w-full mt-1 p-1 border rounded">
+        <option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option>
+      </select>
+    </label>
+    <label class="block mt-2">Color:
+      <div class="flex gap-2 mt-1">
+        <span class="w-5 h-5 rounded-full bg-red-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-blue-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-yellow-400 border"></span>
+        <span class="w-5 h-5 rounded-full bg-green-500 border"></span>
+        <span class="w-5 h-5 rounded-full bg-black border"></span>
+      </div>
+    </label>
+    <button class="mt-4 w-full bg-black text-white py-2 rounded">Add to Cart</button>
+  </div>
+
+  <!-- 3 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt3.jpg" alt="T-shirt 3" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Butterfly Graphic Tee</h3>
+    <p class="text-gray-600">₹699</p>
+    <!-- same size + color + button code -->
+  </div>
+
+  <!-- 4 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt4.jpg" alt="T-shirt 4" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Black Plain Tee</h3>
+    <p class="text-gray-600">₹499</p>
+    <!-- same -->
+  </div>
+
+  <!-- 5 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt5.jpg" alt="T-shirt 5" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Lavender Casual Tee</h3>
+    <p class="text-gray-600">₹599</p>
+    <!-- same -->
+  </div>
+
+  <!-- 6 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt6.jpg" alt="T-shirt 6" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Breakfast Cartoon Tee</h3>
+    <p class="text-gray-600">₹649</p>
+    <!-- same -->
+  </div>
+
+  <!-- 7 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt7.jpg" alt="T-shirt 7" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Collar White Polo Tee</h3>
+    <p class="text-gray-600">₹699</p>
+    <!-- same -->
+  </div>
+
+  <!-- 8 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt8.jpg" alt="T-shirt 8" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Forest Green Back Tee</h3>
+    <p class="text-gray-600">₹549</p>
+    <!-- same -->
+  </div>
+
+  <!-- 9 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt9.jpg" alt="T-shirt 9" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Abstract Butterfly Tee</h3>
+    <p class="text-gray-600">₹649</p>
+    <!-- same -->
+  </div>
+
+  <!-- 10 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt10.jpg" alt="T-shirt 10" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Teal Back Tee</h3>
+    <p class="text-gray-600">₹549</p>
+    <!-- same -->
+  </div>
+
+  <!-- 11 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt11.jpg" alt="T-shirt 11" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Streetwear Fit Tee</h3>
+    <p class="text-gray-600">₹799</p>
+    <!-- same -->
+  </div>
+
+  <!-- 12 -->
+  <div class="border rounded-lg p-4 shadow hover:scale-105 transition">
+    <img src="images/tshirt12.jpg" alt="T-shirt 12" class="w-full h-64 object-cover rounded mb-3">
+    <h3 class="text-lg font-semibold">Classic Navy Tee</h3>
+    <p class="text-gray-600">₹599</p>
+    <!-- same -->
+  </div>
+</section>
