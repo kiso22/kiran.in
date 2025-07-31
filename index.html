@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wearKISO - Premium Minimalist T-Shirts</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+  <!-- Sticky Navbar -->
+  <nav class="fixed w-full top-0 z-50 bg-white dark:bg-gray-800 shadow-md flex justify-between items-center p-4">
+    <div class="text-xl font-bold">wearKISO</div>
+    <div class="space-x-4">
+      <button onclick="document.body.classList.toggle('dark')">🌓</button>
+    </div>
+  </nav>
+  <div class="pt-20"></div>
+
+  <!-- Hero Section -->
+  <section class="text-center py-10">
+    <h1 class="text-4xl font-bold">Minimal. Modern. Made for You.</h1>
+    <p class="mt-4 text-lg">Premium minimalist T-shirts for modern India.</p>
+    <button class="mt-6 px-6 py-2 bg-black text-white hover:scale-105 transition-all" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Shop Now</button>
+  </section>
+
+  <!-- About Section -->
+  <section class="text-center py-10 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4">About wearKISO</h2>
+    <p>wearKISO is a premium minimalist T-shirt brand designed for modern India. Crafted with comfort, style, and sustainability in mind, we bring you tees that elevate your everyday wear.</p>
+  </section>
+
+  <!-- Elevated Basics + Oversized -->
+  <section class="grid md:grid-cols-2 gap-4 py-10 px-4">
+    <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow hover:scale-105 transition">Elevated Basics T-Shirts</div>
+    <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow hover:scale-105 transition">Oversized T-Shirts</div>
+  </section>
+
+  <!-- New Drops -->
+  <section class="py-10 text-center">
+    <h2 class="text-3xl font-bold mb-6">New Drops</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded hover:scale-105 transition">New Tee 1</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded hover:scale-105 transition">New Tee 2</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded hover:scale-105 transition">New Tee 3</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded hover:scale-105 transition">New Tee 4</div>
+    </div>
+  </section>
+
+  <!-- Trending Categories & Best Sellers -->
+  <section class="py-10 px-4">
+    <h2 class="text-2xl font-bold mb-4">Trending Categories</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+      <div class="bg-gray-200 dark:bg-gray-700 p-4 rounded">Casual</div>
+      <div class="bg-gray-200 dark:bg-gray-700 p-4 rounded">Oversized</div>
+      <div class="bg-gray-200 dark:bg-gray-700 p-4 rounded">Minimal</div>
+      <div class="bg-gray-200 dark:bg-gray-700 p-4 rounded">Printed</div>
+    </div>
+    <h2 class="text-2xl font-bold mb-4">Best Sellers</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Best Tee 1</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Best Tee 2</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Best Tee 3</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Best Tee 4</div>
+    </div>
+  </section>
+
+  <!-- Under ₹599 & ₹699 -->
+  <section class="py-10 px-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">Under ₹599</h2>
+    <div class="flex gap-4 justify-center">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Basic Tee</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Daily Wear</div>
+    </div>
+    <h2 class="text-2xl font-bold my-4">Under ₹699</h2>
+    <div class="flex gap-4 justify-center">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Premium Tee</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded">Graphic Tee</div>
+    </div>
+  </section>
+
+  <!-- Sliders -->
+  <section class="py-10 overflow-x-auto whitespace-nowrap scrollbar-hide px-4">
+    <h2 class="text-2xl font-bold mb-4 text-center">KISO Collection</h2>
+    <div class="inline-flex space-x-4">
+      <div class="w-64 h-40 bg-gray-300 dark:bg-gray-700 rounded-lg inline-block"></div>
+      <div class="w-64 h-40 bg-gray-300 dark:bg-gray-700 rounded-lg inline-block"></div>
+      <div class="w-64 h-40 bg-gray-300 dark:bg-gray-700 rounded-lg inline-block"></div>
+      <div class="w-64 h-40 bg-gray-300 dark:bg-gray-700 rounded-lg inline-block"></div>
+    </div>
+  </section>
+
+  <!-- Cart & Checkout -->
+  <section id="cart" class="p-6">
+    <h2 class="text-2xl font-bold mb-4">Your Cart</h2>
+    <div id="cart-items" class="mb-4">No items yet.</div>
+    <p>Total: ₹<span id="total">0</span></p>
+    <button class="mt-4 px-4 py-2 bg-green-600 text-white rounded">Checkout</button>
+  </section>
+
+  <!-- Delivery Address & Payment -->
+  <section class="p-6">
+    <h2 class="text-xl font-semibold mb-2">Delivery Address</h2>
+    <input type="text" placeholder="Full Address" class="w-full p-2 border rounded mb-4">
+    <button class="px-4 py-2 bg-blue-600 text-white rounded">Proceed to Payment</button>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2">Payment Options</h2>
+    <ul class="space-y-2">
+      <li>PhonePe</li>
+      <li>Google Pay</li>
+      <li>Paytm</li>
+      <li>Card Payment</li>
+      <li>Cash on Delivery (Coming Soon)</li>
+    </ul>
+  </section>
+
+  <!-- Reviews -->
+  <section class="py-10 px-4">
+    <h2 class="text-2xl font-bold mb-4 text-center">Customer Reviews</h2>
+    <div class="space-y-4 max-w-xl mx-auto">
+      <p>⭐⭐⭐⭐⭐ - Rohan<br>Excellent quality and perfect fit. Loved the olive color!</p>
+      <p>⭐⭐⭐⭐ - Neha<br>Super soft fabric and delivery was quick. Will buy again!</p>
+      <p>⭐⭐⭐⭐⭐ - Aryan<br>Minimalist and stylish. WearKISO rocks 🔥</p>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="py-10 text-center bg-gray-100 dark:bg-gray-800">
+    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+    <p>📞 7671081520</p>
+    <p>📧 wearkiso@gmail.com</p>
+    <a href="https://wa.me/7671081520" class="inline-block mt-2 px-4 py-2 bg-green-600 text-white rounded">Chat on WhatsApp</a>
+  </section>
+
+</body>
+</html>
